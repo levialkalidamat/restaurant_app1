@@ -11,13 +11,16 @@
 @endsection
 
 @section('bodyID')
-{{ 'menu' }}@endsection
+{{ 'menu' }}
+@endsection
 
 @section('navTheme')
-{{ 'light' }}@endsection
+{{ 'light' }}
+@endsection
 
 @section('logoFileName')
-{{ URL('http://127.0.0.1:8000/images/logo.jpg') }}@endsection
+{{ URL('http://127.0.0.1:8000/images/logo.jpg') }}
+@endsection
 
 @section('content')
 <form method='post' action="{{ route('updateMenuDetails') }}" class="px-4 py-3" style="min-width: 350px">
@@ -30,12 +33,12 @@
             <label class="input-group-text" for="itemTypeInputGroup">Catégorie:</label>
             <select name="menuType" class="form-select" id="itemTypeInputGroup" >
                 <option selected>{{ $menu['type'] }}</option>
-                <option name="menuType" value="Appetizer">Appetizer</option>
-                <option name="menuType" value="Sushi">Sushi</option>
-                <option name="menuType" value="Temaki">Temaki</option>
-                <option name="menuType" value="Bento">Bento</option>
-                <option name="menuType" value="Ramen">Ramen</option>
-                <option name="menuType" value="Beverage">Beverage</option>
+                <option name="menuType" value="Aperitif">Aperitif</option>
+                <option name="menuType" value="Dejeuner">Dejeuner</option>
+                <option name="menuType" value="Diner">Diner</option>
+                <option name="menuType" value="Repas">Repas</option>
+                <option name="menuType" value="Nord">Nord</option>
+                <option name="menuType" value="Sud">Sud</option>
                 <option name="menuType" value="Dessert">Dessert</option>
             </select>
         </div>

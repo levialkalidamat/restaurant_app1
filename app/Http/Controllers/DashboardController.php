@@ -64,19 +64,19 @@ class DashboardController extends Controller
                 $itemQty = $item->quantite;
 
                 switch($itemType) {
-                    case "Appetizer":
+                    case "Aperitif":
                         $categoricalSales[0] += $itemPrice * $itemQty;
-                    case "Bento":
-                        $categoricalSales[1] += $itemPrice * $itemQty;
-                    case "Beverage":
-                        $categoricalSales[2] += $itemPrice * $itemQty;
                     case "Dessert":
+                        $categoricalSales[1] += $itemPrice * $itemQty;
+                    case "Dejeuner":
+                        $categoricalSales[2] += $itemPrice * $itemQty;
+                    case "Diner":
                         $categoricalSales[3] += $itemPrice * $itemQty;
-                    case "Ramen":
+                    case "Repas":
                         $categoricalSales[4] += $itemPrice * $itemQty;
-                    case "Sushi":
+                    case "Nord":
                         $categoricalSales[5] += $itemPrice * $itemQty;
-                    case "Temaki":
+                    case "Sud":
                         $categoricalSales[6] += $itemPrice * $itemQty;
                 }
             }

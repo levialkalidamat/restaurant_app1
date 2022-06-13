@@ -52,12 +52,12 @@
                                 <div class="input-group mb-3">
                                     <label class="input-group-text" for="itemTypeInputGroup">Catégorie:</label>
                                     <select name="menuType" class="form-select" id="itemTypeInputGroup" >
-                                        <option name="menuType" value="Appetizer">Appetizer</option>
-                                        <option name="menuType" value="Sushi">Sushi</option>
-                                        <option name="menuType" value="Temaki">Temaki</option>
-                                        <option name="menuType" value="Bento">Bento</option>
-                                        <option name="menuType" value="Ramen">Ramen</option>
-                                        <option name="menuType" value="Beverage">Beverage</option>
+                                        <option name="menuType" value="Aperitif">Aperitif</option>
+                                        <option name="menuType" value="Dejeuner">Dejeuner</option>
+                                        <option name="menuType" value="Diner">Diner</option>
+                                        <option name="menuType" value="Repas">Repas</option>
+                                        <option name="menuType" value="Nord">Nord</option>
+                                        <option name="menuType" value="Sud">Sud</option>
                                         <option name="menuType" value="Dessert">Dessert</option>
                                     </select>
                                 </div>
@@ -149,12 +149,12 @@
             <div class="col-md-8 offset-md-1 col-12 text-center menu-type my-3">
                 <form method="get" action="{{ route('filterMenu') }}">
                     <button type="submit" name="menuType" value="" class="btn btn-light menu-type-button">Toutes les categories</button>
-                    <button type="submit" name="menuType" value="Appetizer" class="btn btn-light menu-type-button">Appetizer</button>
-                    <button type="submit" name="menuType" value="Sushi" class="btn btn-light menu-type-button">Sushi</button>
-                    <button type="submit" name="menuType" value="Temaki" class="btn btn-light menu-type-button">Temaki</button>
-                    <button type="submit" name="menuType" value="Bento" class="btn btn-light menu-type-button">Bento</button>
-                    <button type="submit" name="menuType" value="Ramen" class="btn btn-light menu-type-button">Ramen</button>
-                    <button type="submit" name="menuType" value="Beverage" class="btn btn-light menu-type-button">Beverage</button>
+                    <button type="submit" name="menuType" value="Aperitif" class="btn btn-light menu-type-button">Aperitif</button>
+                    <button type="submit" name="menuType" value="Dejeuner" class="btn btn-light menu-type-button">Dejeuner</button>
+                    <button type="submit" name="menuType" value="Diner" class="btn btn-light menu-type-button">Diner</button>
+                    <button type="submit" name="menuType" value="Repas" class="btn btn-light menu-type-button">Repas</button>
+                    <button type="submit" name="menuType" value="Nord" class="btn btn-light menu-type-button">Nord</button>
+                    <button type="submit" name="menuType" value="Sud" class="btn btn-light menu-type-button">Sud</button>
                     <button type="submit" name="menuType" value="Dessert" class="btn btn-light menu-type-button">Dessert</button>
                 </form>
             </div>
@@ -162,12 +162,12 @@
             <div class="col-md-8 offset-md-2 col-12 text-center menu-type my-3">
                 <form method="get" action="{{ route('filterMenu') }}">
                     <button type="submit" name="menuType" value="" class="btn btn-light menu-type-button">Toutes les categories</button>
-                    <button type="submit" name="menuType" value="Appetizer" class="btn btn-light menu-type-button">Appetizer</button>
-                    <button type="submit" name="menuType" value="Sushi" class="btn btn-light menu-type-button">Sushi</button>
-                    <button type="submit" name="menuType" value="Temaki" class="btn btn-light menu-type-button">Temaki</button>
-                    <button type="submit" name="menuType" value="Bento" class="btn btn-light menu-type-button">Bento</button>
-                    <button type="submit" name="menuType" value="Ramen" class="btn btn-light menu-type-button">Ramen</button>
-                    <button type="submit" name="menuType" value="Beverage" class="btn btn-light menu-type-button">Beverage</button>
+                    <button type="submit" name="menuType" value="Aperitif" class="btn btn-light menu-type-button">Aperitif</button>
+                    <button type="submit" name="menuType" value="Dejeuner" class="btn btn-light menu-type-button">Dejeuner</button>
+                    <button type="submit" name="menuType" value="Diner" class="btn btn-light menu-type-button">Diner</button>
+                    <button type="submit" name="menuType" value="Repas" class="btn btn-light menu-type-button">Repas</button>
+                    <button type="submit" name="menuType" value="Nord" class="btn btn-light menu-type-button">Nord</button>
+                    <button type="submit" name="menuType" value="Sud" class="btn btn-light menu-type-button">Sud</button>
                     <button type="submit" name="menuType" value="Dessert" class="btn btn-light menu-type-button">Dessert</button>
                 </form>
             </div>
@@ -183,12 +183,12 @@
                                     <label class="input-group-text" for="itemTypeInputGroup">Catégorie:</label>
                                     <select name="menuType" class="form-select" id="itemTypeInputGroup" >
                                         <option name="menuType" value="">Toutes</option>
-                                        <option name="menuType" value="Appetizer">Appetizer</option>
-                                        <option name="menuType" value="Sushi">Sushi</option>
-                                        <option name="menuType" value="Temaki">Temaki</option>
-                                        <option name="menuType" value="Bento">Bento</option>
-                                        <option name="menuType" value="Ramen">Ramen</option>
-                                        <option name="menuType" value="Beverage">Beverage</option>
+                                        <option name="menuType" value="Aperitif">Aperitif</option>
+                                        <option name="menuType" value="Dejeuner">Dejeuner</option>
+                                        <option name="menuType" value="Diner">Diner</option>
+                                        <option name="menuType" value="Repas">Repas</option>
+                                        <option name="menuType" value="Nord">Nord</option>
+                                        <option name="menuType" value="Sud">Sud</option>
                                         <option name="menuType" value="Dessert">Dessert</option>
                                     </select>
                                 </div>
