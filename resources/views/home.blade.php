@@ -41,7 +41,7 @@
                     <img src="./images/chef1.jpg" alt="">
                 </div>
                 <div class="chef-desc d-flex flex-column align-items-center justify-content-start">
-                    <p class="chef-name">Jean claude</p>
+                    <p class="chef-name">Jean</p>
                     <p class="chef-position">Chef cuisinier</p>
                 </div>
             </div>
@@ -50,8 +50,8 @@
                     <img src="./images/chef2.jpg" alt="">
                 </div>
                 <div class="chef-desc d-flex flex-column align-items-center justify-content-start">
-                    <p class="chef-name">Bouba</p>
-                    <p class="chef-position">Cuisinier</p>
+                    <p class="chef-name">Madeleine</p>
+                    <p class="chef-position">Cuisinière</p>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-8 col-10 mt-5">
