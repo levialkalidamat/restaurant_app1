@@ -66,17 +66,17 @@ class DashboardController extends Controller
                 switch($itemType) {
                     case "Aperitif":
                         $categoricalSales[0] += $itemPrice * $itemQty;
-                    case "Dessert":
-                        $categoricalSales[1] += $itemPrice * $itemQty;
                     case "Dejeuner":
-                        $categoricalSales[2] += $itemPrice * $itemQty;
+                        $categoricalSales[1] += $itemPrice * $itemQty;
                     case "Diner":
-                        $categoricalSales[3] += $itemPrice * $itemQty;
+                        $categoricalSales[2] += $itemPrice * $itemQty;
                     case "Repas":
-                        $categoricalSales[4] += $itemPrice * $itemQty;
+                        $categoricalSales[3] += $itemPrice * $itemQty;
                     case "Nord":
-                        $categoricalSales[5] += $itemPrice * $itemQty;
+                        $categoricalSales[4] += $itemPrice * $itemQty;
                     case "Sud":
+                        $categoricalSales[5] += $itemPrice * $itemQty;
+                    case "Dessert":
                         $categoricalSales[6] += $itemPrice * $itemQty;
                 }
             }

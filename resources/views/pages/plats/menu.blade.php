@@ -309,7 +309,7 @@
         @empty
         <div class="row">
             <div class="col-12">
-                <h1>Pas de résultat obtenue<i class="fa fa-frown-o" aria-hidden="true"></i></h1>
+                <h1>Aucun plat disponible<i class="fa fa-frown-o" aria-hidden="true"></i></h1>
             </div>
         </div>
         @endforelse
