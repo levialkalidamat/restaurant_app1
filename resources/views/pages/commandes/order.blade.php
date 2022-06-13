@@ -15,7 +15,7 @@
 {{ 'light' }}@endsection
 
 @section('logoFileName')
-{{ URL::asset('/images/logo.png') }}@endsection
+{{ URL::asset('/images/logo.jpg') }}@endsection
 
 
 @section('content')
